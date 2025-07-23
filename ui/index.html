@@ -1,0 +1,24 @@
+<!-- ui/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Design Feedback</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Upload a Design Image</h1>
+  <form id="upload-form">
+    <input type="file" name="image" id="image-input" required />
+    <button type="submit">Analyze</button>
+  </form>
+
+  <div id="results" style="margin-top: 2rem;">
+    <h2>Feedback</h2>
+    <pre id="feedback-text"></pre>
+    <img id="preview-image" style="max-width: 500px; display: none;" />
+  </div>
+
+  <script src="interface.js"></script>
+</body>
+</html>

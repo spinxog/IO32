@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Adobe Express Design Analyzer",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://express.adobe.com/sp/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

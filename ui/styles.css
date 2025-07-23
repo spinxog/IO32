@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+input[type="file"] {
+  margin-bottom: 1rem;
+}
+pre {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-left: 4px solid #ccc;
+}
